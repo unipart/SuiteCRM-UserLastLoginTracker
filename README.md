@@ -12,3 +12,5 @@ track last login date/time of users
 ```php
   $hook_array['after_login'][] = Array(1, 'User last login tracker', 'custom/modules/Users/UserLastLoginTracker.php', 'UserLastLoginTracker', 'updateLastLogin');
 ```
+
+Next, you can edit the layout for user list and add field last_login_date. Admins can view last login date of each user.
